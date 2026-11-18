@@ -1,6 +1,8 @@
 # order_book_simulation
 A limit order book implementation in Python, built to simulate zero-intelligence market microstructure dynamics.
 
+An example of chart obtained with one simulation is order_book.png. We can see a huge difference of volatility at the beginning when the order book is empty and the lack of liquidity conveys to price jumps. The volatility decreases immediatly afterwards.
+
 ## Features
 
 - **Price-Time Priority (FIFO):** Implements standard exchange matching logic where resting orders are prioritized by price and arrival timestamp.
