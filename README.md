@@ -12,6 +12,7 @@ A limit order book implementation in Python, built to simulate zero-intelligence
 
 ## Architecture & Code Structure
 
+```python
 import heapq
 
 buy_orders = []                # Stored as (-price, timestamp, order_id, qty)
